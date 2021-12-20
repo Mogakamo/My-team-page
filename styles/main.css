@@ -1,3 +1,33 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Serif:wght@700&family=Poppins:wght@600&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .left {
+    font-family: 'PT Serif', monospace;
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+
+header .right {
+    font-family: 'Poppins', monospace;
+    width: 40%;
+    float: left;
+}
+
+header h1 {
+    margin-top: 65px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    width: 278px;
+    height: 47px;
+    margin-left: 243px;
+}
